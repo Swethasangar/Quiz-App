@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  background: linear-gradient(140deg, #f8f2dc, #279af1, #f8f2dc);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.container {
+  width: 640px;
+  background-color: white;
+  padding: 40px 50px;
+}
+.container hr {
+  height: 2px;
+}
+.container ul li {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding-left: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.container .Correct {
+  background-color: #dffff2;
+  border: 1px solid #00d397;
+}
+.container .Wrong {
+  background-color: #ffebeb;
+  border: 1px solid #ff4a4a;
+}
